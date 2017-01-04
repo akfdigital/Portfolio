@@ -3,10 +3,15 @@
   background: linear-gradient(160deg, #242528 0%, #A79286 100%);
 }
 
+.center a {
+  text-align: center; 
+  letter-spacing: 2px;
+}
+
 .placeholder {
   height: 30rem;
-  width: 55%;
-  background: #fff; 
+  width: 60%;
+  background: none; 
   display: block;
   float: left; 
   box-shadow: 10px 10px 40px #2F363D;
@@ -15,11 +20,20 @@
 .placeholder-right {
   height: 9rem;
   float: right;
-  width: 40%;
+  width: 35%;
   display: block;
-  background: #fff; 
+  background: linear-gradient(145deg, #99867B 15%, #A79286 100%);
   margin-top: 1rem; 
   box-shadow: 10px 10px 40px #2F363D;
+}
+
+.placeholder-right:hover {
+  box-shadow: 1px 1px 10px #2F363D;
+}
+
+.placeholder-right p {
+  color: #fff;
+  padding-top: 10px; 
 }
 
 .body {
@@ -49,7 +63,7 @@ h1 {
     .jumbotron .btn-primary:hover {
       background: #7646c1; }
   .jumbotron p {
-    color: #d9ccee;
+    color: #242528;
     max-width: 75%;
     margin: 1em auto 2em; }
  
