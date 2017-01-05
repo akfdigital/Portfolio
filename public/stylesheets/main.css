@@ -18,7 +18,7 @@ img {
 }
 
 video {
-  width: 65%;
+  width: auto;
   height: 30rem;
   margin: 0 auto;
   box-shadow: 10px 10px 40px #2F363D;
