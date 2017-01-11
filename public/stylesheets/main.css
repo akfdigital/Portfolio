@@ -20,13 +20,20 @@
    color: #CC6A62;
 }
 
+#section_four h1 {
+    color: #FF857A; 
+}
+
 #section_two {
   background: linear-gradient(180deg, #FFF 0%, #FFF 100%);
 }
 
 #section_three {
+  background: linear-gradient(180deg, #FF857A 0%, #FF857A 100%);
+}
+
+#section_four {
   background: linear-gradient(180deg, #CC6A62 0%, #CC6A62 100%);
-  margin:0;
 }
 
 .pair {
