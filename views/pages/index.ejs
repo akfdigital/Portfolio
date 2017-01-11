@@ -8,27 +8,30 @@
 
   <% include ../partials/nav.ejs %>
 
-<div class="jumbotron">
-
-  <div class="container text-center">
+<section id="section_one" class="jumbotron">
+  <div>
+    <div class="container text-center">
+      <div>
+        <img class="logo" src="logo.svg">
+        <h1 id="header">OH, HI</h1>
+      </div>
     <div class="placeholder">
-      <video id="my-video" class="video-js" controlss="false" autoplay= "true" loop="true" width="100%" height="100%"
-  poster="MY_VIDEO_POSTER.jpg" data-setup="{}">
-    <source src="Comp-1.mp4" type='video/mp4'>
-    <source src="MY_VIDEO.webm" type='video/webm'>
-    <p class="vjs-no-js">
-      To view this video please enable JavaScript, and consider upgrading to a web browser that
-      <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
-    </p>
-  </video>
+      <img src="crop.png">
+    </div>
     </div>
   </div>
-</div>
-<div class="opacity-img">
-  <img src="chairs.png">
-</div>
+</section>
+
+<section id="section_two">
+  <div class="container">
+    
+  </div>
   
-  <% include ../partials/work.ejs %>
+</section>
+
+
+  
+
 </body>
 
 </html>

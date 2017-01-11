@@ -1,10 +1,33 @@
 .navbar + .jumbotron {
   margin-top: -20px; 
-  background: linear-gradient(180deg, #BEA99D 0%, #242528 100%);
+  
 }
 
 .navbar-inverse .navbar-nav>li>a {
-  color: #242528 ;
+  color: #7F6663 ;
+}
+
+#section_one {
+  background: linear-gradient(180deg, #FF857A 0%, #FF857A 100%);
+
+}
+
+@font-face {
+    font-family: 'Malva-Black';
+    src: url('/Malva-Black.eot');
+    src: url('/Malva-Black.woff') format('woff'),
+         url('/Malva-Black.svg') format('svg');
+}
+
+.logo {
+  height: auto;
+  width: 5%; 
+}
+
+#header{
+  font-family: Malva-Black;
+  font-size: 9em;
+  color: #FFCBC6;  
 }
 
 .image-container {
@@ -21,7 +44,7 @@ video {
   width: auto;
   height: 30rem;
   margin: 0 auto;
-  box-shadow: 10px 10px 40px #2F363D;
+
 }
 .center a {
   text-align: center; 
@@ -29,32 +52,26 @@ video {
 }
 
 .placeholder {
-
   width: 100%;
   background: none; 
   display: block;
-  float: left; 
-
+  float: left;
 }
 
-.opacity-img {
-  opacity: .4; 
+.placeholder img {
+  height: 50%;
+  width: auto;
 }
 
-.placeholder-right p {
-  color: #fff;
-  padding-top: 10px; 
-}
 
 .body {
-  background: #242528;
   font-family: lexia, serif;
   font-style: normal;
   font-weight: 500;
 }
 
 .navbar-blue {
-  background: #BEA99D;
+  background: #FF857A;
   border: none;  
 }
 
@@ -65,8 +82,8 @@ h1 {
 }
 
 .jumbotron {
-  color: white;
-  padding-bottom: 0px; }
+  padding-top: 10px; 
+  padding-bottom: 50px; }
   .jumbotron .btn-primary {
     background: #845ac7;
     border-color: #845ac7; }
