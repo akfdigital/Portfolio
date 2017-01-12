@@ -36,6 +36,17 @@
   background: linear-gradient(180deg, #CC6A62 0%, #CC6A62 100%);
 }
 
+#test {
+    position: relative;
+    overflow: auto;
+}
+
+.video {
+    position: absolute;
+    height:100%;
+    width:100%;
+}
+
 .pair {
   text-align: center; 
   overflow: hidden; 
@@ -73,7 +84,7 @@
 }
 
 .header{
-  font-family: Malva-Black;
+  font-family: Malva-Black, sans-serif;
   font-size: 9em; 
 }
 
@@ -103,11 +114,19 @@ video {
   background: none; 
   display: block;
   float: left;
+  position: relative;
+}
+
+.placeholder p {
+   position: absolute; 
+   top: 0px; 
+   left: 50px;  
+   width: 100%; 
 }
 
 .placeholder img {
-  height: 50%;
-  width: auto;
+  width: 55%;
+  height: auto;
 }
 
 
@@ -120,12 +139,6 @@ video {
 .navbar-blue {
   background: #FF857A;
   border: none;  
-}
-
-h1 {
-  font-family: lexia, serif;
-  font-style: normal;
-  font-weight: 700;
 }
 
 .jumbotron {
@@ -141,5 +154,9 @@ h1 {
     color: #242528;
     max-width: 75%;
     margin: 1em auto 2em; }
+
+  .jumbotron h1 {
+    font-size: 8em;
+  }
  
 
