@@ -9,16 +9,20 @@
   <% include ../partials/nav.ejs %>
 
 <section id="section_one" class="jumbotron">
-  <div>
-    <div class="container text-center">
-      <div>
+  <div class="container">
+      <div class="text-center">
         <img class="logo" src="logo.svg">
         <h1 class="header">OH, HI</h1>
       </div>
-    <div class="placeholder">
-      <img src="screen.png">
-      <p>Tom Ford</p>
-    </div>
+    <div class="row"> 
+    <div class="col-md-8 col-md-offset-2 col-sm-10 block">
+              <div id="element"></div>
+              </div>
+          <div class="row">
+              <div class="col-md-12  col-sm-10 screeny">
+            <img id="screen" src="screen3.png">
+          </div>
+        </div>
     </div>
   </div>
 </section>
@@ -50,7 +54,7 @@
 <section id="section_three">
   <div class="container pair">
     <div class="row">
-      <div class="col-md-6 computer">
+      <div class="col-md-5 col-md-offset-1 computer">
          <img src="phone-stuffy.png">
       </div>
       <div class="col-md-5 col-md-offset-right-1 this">
