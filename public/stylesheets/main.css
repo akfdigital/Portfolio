@@ -163,11 +163,26 @@ video {
 
  #element {
     position: absolute;
-    font-size: 2em; 
     padding-top: 3%; 
     right: 0;
     padding-right: 3%; 
     z-index: 1; /* Add Stack Order */ 
+    font-size: 2em; 
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    #element {
+      font-size: 1em; 
+    }
+
+    #section_one {
+      height: 100%;
+    }
+
 }
 
 
