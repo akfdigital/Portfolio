@@ -55,6 +55,16 @@
   background: linear-gradient(180deg, #CC6A62 0%, #CC6A62 100%);
 }
 
+#section_five {
+  background: linear-gradient(180deg, #CC6A62 0%, #CC6A62 100%);
+  padding-bottom: 20px;
+}
+
+#section_five p {
+  font-size: 1.2em; 
+}
+
+
 #test {
     position: relative;
     overflow: auto;
@@ -107,6 +117,11 @@
   font-size: 9em; 
 }
 
+h2 {
+  font-family: Malva-Black, sans-serif;
+  font-size: 2.5em;
+  color: #CC6A62; 
+}
 .image-container {
   width: 45%;
   height: 30rem;
@@ -168,6 +183,12 @@ video {
     padding-right: 3%; 
     z-index: 1; /* Add Stack Order */ 
     font-size: 2em; 
+    font-family: 'Open Sans Condensed', sans-serif;
+; 
+}
+
+.justify-left {
+  text-align: left; 
 }
 
 @media only screen 
@@ -175,9 +196,6 @@ video {
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
 
-    #element {
-      font-size: 1.5em; 
-    }
 
     #section_one {
       height: 100%;
