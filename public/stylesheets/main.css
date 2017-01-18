@@ -64,6 +64,10 @@
   font-size: 1.2em; 
 }
 
+section {
+  min-height: 550px; 
+}
+
 
 #test {
     position: relative;
@@ -198,7 +202,8 @@ video {
 
 
     #section_one {
-      height: 100%;
+      width: 100%;
+      position: relative; 
     }
 
     #screen {
