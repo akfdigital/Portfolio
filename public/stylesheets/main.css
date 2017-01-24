@@ -3,6 +3,10 @@
   
 }
 
+#title {
+  font-size: 15em; 
+}
+
 .jumbotron {
   padding-top: 10px; 
   padding-bottom: 50px;
@@ -13,7 +17,6 @@
     .jumbotron .btn-primary:hover {
       background: #7646c1; }
   .jumbotron p {
-    color: #242528;
     max-width: 75%;
     margin: 1em auto 2em; }
 
@@ -119,6 +122,12 @@ section {
 .header{
   font-family: Malva-Black, sans-serif;
   font-size: 9em; 
+}
+
+.header-text{
+  font-family: Malva-Black, sans-serif;
+  font-size: 7em; 
+  color: #7F6663;
 }
 
 h2 {
