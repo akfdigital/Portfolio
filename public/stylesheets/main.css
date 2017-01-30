@@ -1,7 +1,12 @@
-.navbar + .jumbotron {
-  margin-top: -20px; 
-  
+.nav {
+  background: #FF857A;
+  border: none;  
 }
+
+.nav>li>a {
+  color: #7F6663 ;
+}
+
 
 #title {
   font-size: 15em; 
@@ -25,9 +30,7 @@
   }
 
 
-.navbar-inverse .navbar-nav>li>a {
-  color: #7F6663 ;
-}
+
 
 #section_one {
   background: linear-gradient(180deg, #FF857A 0%, #FF857A 100%);
@@ -163,10 +166,6 @@ video {
   display: block; 
 }
 
-.navbar-blue {
-  background: #FF857A;
-  border: none;  
-}
 
 
 .block {
