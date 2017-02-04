@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
 
   <% include ../partials/header.ejs %>
 </head>
@@ -11,31 +11,52 @@
 
   <% include ../partials/nav.ejs %>
 
-<section id="section_one" class="jumbotron">
+<section id="section_one">
   <div class="container">
-    <div class="row">
-      <div class="col-xs-12 col-lg-12 text-center">
-        <img class="logo" src="logo.svg">
+    <div class="row justify-content-md-center">
+      <div class=" hidden-sm-down col-md-2 col-lg-1">
+        <img src="logo.svg">
+      </div>
+      <div class="col-xs-10 col-lg-12 text-center">
         <h1 class="display-1 header">OH, HI</h1>
       </div>
     </div>
     <div class="row justify-content-md-center"> 
-      <div class="col-6">
-         <img src="cubby4.png">
+      <div class="col-lg-6 col-xs-8">
+         <img src="cubby5.png">
       </div>
   </div>
 </section>
-<section id="section_five">
-  <table>
-    <tbody>
-        <td><h1 class="header align-text-bottom">ABOUT</h1></td>
-        <td>
-            <p> I'm a front end developer with experience in HTML/CSS/Javascript, as well as familiarity with Angular JS and several front end frameworks. I've built projects from the ground up with NodeJS, IOS apps, Wordpress sites, and done design work for Shopify sites. </p>
-            <p> As a freelancer, I've worked with a number of small business developing logos, customized assets, and full apps. I also have design, UI experience in everything from print to apps.</p>
-            <p> I have a strong interest in 3D and consider myself as Maya/VR hobbyist, but am always seeking to learn more.</p>
-      </td> 
-    </tbody>
-  </table>
+<section class="white">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 about">
+        <div class="text-center">
+          <div class="mt-4 mx-auto">
+            <h1 class="header">about</h1>
+          </div>
+        </div>
+        </div>
+        <div class="col-md-5 mx-auto my-4">
+          <p>I'm Ali FitzGerald; a Developer, Designer, and Writer based in Somerville, MA.</p>
+          <p>Years ago, I built a Wordpress site to self-publish film and television reviews. During the process, I fell in love with the holistic approach to creativity that the digital world makes possible.</p>
+          <p>I’ve since become well versed in color theory, typography, video editing, Photoshop, Illustrator, After Effects and full stack web development. I specialize in HTML/CSS/JS as well as the popular front end frameworks.</p>
+          <p>My process involves:<p>
+          <p style="font-weight: bold;">RESEARCH</p>
+          <b><p>CONCEPT</p></b>
+          <b><p>STRUCTURE</p></b>
+          <b><p>EXECUTION</p></b>
+          <p>I tackle both large and small projects with the same attention to overall cohesiveness and awareness of overall brand messaging.</p>
+        </div>
+      </div>
+      <hr>
+    </div>
+  </div>
+</section>
+<section class="">
+    <div class="text-center">
+      <h1 class="display-1 header">work</h1>
+    </div>
 </section>
 <section id="section_two">
   
@@ -43,41 +64,18 @@
   
 </section>
 <section id="section_four">
-  <div class="container pair">
-    <div class="row">
-      <div class="col-md-5 this">
-        <h1 class="header">LIVEINFENWAY</h1>
-      </div>
-       <div class="col-md-7 computer">
-        <img src="fenway.png">
-      </div> 
-    </div>
-  </div>
+    <% include ../partials/liveinfenway.ejs %>
 </section>
 <section id="section_three">
-  <div class="container pair">
-    <div class="row">
-      <div class="col-md-5 col-md-offset-1 computer">
-         <img src="phone-stuffy.png">
-      </div>
-      <div class="col-md-5 col-md-offset-right-1 this">
-        <h1 class="header">UNCLE STUFFY</h1>
-      </div> 
-    </div>
-  </div>
+     <% include ../partials/stuffy.ejs %>
 </section>
+
+<section id="section_four">
+     <% include ../partials/ruth.ejs %>
+</section>
+
 <section id="section_two">
-  <div class="container pair">
-    <div class="row">
-      <div class="col-md-5 col-md-offset-1 this">
-        <h1 class="header">CAT FACTS</h1>
-        <h2> THINGS THAT CATS LIKE </h2>
-      </div> 
-      <div class="col-md-5 col-md-offset-right-1">
-            <iframe width="100%" height="315" src="https://www.youtube.com/embed/jLXoHVccIeA" frameborder="0" allowfullscreen></iframe>
-      </div>
-    </div>
-  </div>
+    <% include ../partials/catfacts.ejs %>
 </section>
 
 
