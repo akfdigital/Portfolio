@@ -21,6 +21,24 @@
 }
 
 
+@media (max-width: 440px) {
+.element {
+      width: 90%;   
+     }
+.about_me {
+  font-size: 6em!important;
+}
+
+.header-text {
+  font-size: 4em!important;  
+  text-align: center; 
+}
+
+.media-body p {
+  text-align: center; 
+}
+} 
+
 .body {
   background: linear-gradient(180deg, #FF857A 0%, #FF857A 100%);
   overflow-x:hidden;
@@ -52,7 +70,7 @@
   background: linear-gradient(180deg, #CC6A62 0%, #CC6A62 100%);
 }
 
-h1.header {
+h1.about_me {
   margin-top: 20%; 
 }
 
@@ -98,6 +116,7 @@ img {
   font-weight: 500;
   display: block; 
 }
+
 
 
 
