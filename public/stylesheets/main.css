@@ -9,6 +9,7 @@
 
 /********** Nav **********/
 
+
 .nav {
   background: #FF857A;
   border: none;  
@@ -51,6 +52,10 @@
   background: linear-gradient(180deg, #CC6A62 0%, #CC6A62 100%);
 }
 
+h1.header {
+  margin-top: 20%; 
+}
+
 
 
 #section_five p {
@@ -59,6 +64,8 @@
 
 .white {
   background-color: white; 
+  height: 400px;
+  overflow-x: auto;
 }
 
 .logo {
